@@ -17,9 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
             const area = length * width;
             // Añadimos el resultado al div que tenemos en el template.
             //Nos vamos acostumbrando a la plantilla literal o template literal.
-            resultContainer.innerHTML = `El área del rectángulo es: ${area}`;
+            //resultContainer.innerHTML = "El área del rectángulo es: " + area;
+            resultContainer.innerHTML = `El área del rectángulo es ${area}`;
         } else {
-            resultContainer.innerHTML = "Por favor, ingrese valores válidos.";
+            resultContainer.innerHTML = `Por favor, ingrese valores válidoss`;
         }
     });
 });
